@@ -1,5 +1,7 @@
 package com.sohee;
 
+// 자바 주석 공부 // 한줄 /* */ 여러줄 
+
 public class Hello {
     public static void main(String[] args) {
         // Hello world를 출력한다.
