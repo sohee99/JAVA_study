@@ -1,20 +1,20 @@
-public class Java_study1 {
+public class Java_study1{
 
  //증감 연산자
-
+/*
         public static void main(String[] args) {
         int x = 10;
         int y = 10;
         int z;
 
         System.out.println("----------------------");
-        x++; //10
-        ++x; //11
+        x++; //11
+        ++x; //12
         System.out.println("x=" + x); //12
 
         System.out.println("----------------------");
-        y--; //10
-        --y; //9
+        y--; //9
+        --y; //8
         System.out.println("y=" + y); //8
 
         System.out.println("----------------------");
@@ -33,7 +33,7 @@ public class Java_study1 {
         System.out.println("x=" + x); //15
         System.out.println("y=" + y); //9
    }
-
+*/
 
 /*논리 부정 연산자(!)
 
