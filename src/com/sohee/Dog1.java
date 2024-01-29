@@ -1,5 +1,7 @@
 package com.sohee;
 
+//자바 연습 1
+
 public class Dog1 {
     public static void main(String[] args) {
         String dog1Name = "뽀삐";
