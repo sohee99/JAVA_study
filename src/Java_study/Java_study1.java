@@ -35,7 +35,7 @@ public class Java_study1 {
    }
 
 
-/*논리 부정 연산자(!)
+논리 부정 연산자(!)
 
         public static void main(String[] args) {
         boolean play = true;
@@ -47,17 +47,17 @@ public class Java_study1 {
         play = !play;
         System.out.println(play); //true
     }
-*/
 
-/*비트연산자
+
+비트연산자
 
         public static void main(String[] args) {
         int a = 5; // (부호+)0101
         System.out.println(~a); //(부호-)1010 -(a+1)
     }
-*/
 
-/*이항 연산자 특징 : 표현범위가 큰 타입 변환 / 정수 + 실수의 경우 실수가 이김!!
+
+이항 연산자 특징 : 표현범위가 큰 타입 변환 / 정수 + 실수의 경우 실수가 이김!!
 
         public static void main(String[] args) {
         float a = 45f;
@@ -66,8 +66,8 @@ public class Java_study1 {
         System.out.println(sum);
 
     }
-*/
-/*  반올림, 버림 예시
+
+ 반올림, 버림 예시
 
     public static void main(String[] args) {
         float a = 45f;
@@ -77,8 +77,8 @@ public class Java_study1 {
         double result = Math.round(sum); //Math.round - 반올림 floor - 버림
         System.out.println(result);
     }
-*/
-/* 사칙 연산 %
+
+ 사칙 연산 %
 
     public static void main(String[] args) {
         int a = 10;
@@ -90,16 +90,16 @@ public class Java_study1 {
         System.out.println( a / b );
         System.out.println( a % b );
     }
-*/
-/* 오버플로우
+
+ 오버플로우
 
     public static void main(String[] args) {
         int a = 1000000;
         int b = 1000000;
         System.out.println((long)a * b);
     }
-*/
-/* NaN, Infinity
+
+ NaN, Infinity
 
     public static void main(String[] args) {
         double a = 10;
@@ -111,8 +111,8 @@ public class Java_study1 {
         System.out.println(div); //Infinity
         System.out.println(c);   //NaN
     }
-*/
-/* 비트 연산자 : & | ^
+
+ 비트 연산자 : & | ^
 
     public static void main(String[] args) {
        i는 2의 배수 또는 3의 배수
@@ -123,8 +123,8 @@ public class Java_study1 {
             int i = 13;
             boolean result = ( i < 78 ) & ( i > 45)
     }
-*/
-/* 삼항 연산자
+
+ 삼항 연산자
 
     public static void main(String[] args) {
         int score = 95;
@@ -138,16 +138,16 @@ public class Java_study1 {
         }
         System.out.println("당신의 학점은 : " + grade);
     }
-*/
-/* 삼항연산자 퀴즈 80점 이상일 때 A 70이상~ 80점 미만 일 때, B 70점 미만 C
+
+ 삼항연산자 퀴즈 80점 이상일 때 A 70이상~ 80점 미만 일 때, B 70점 미만 C
 
     public static void main(String[] args) {
         int score = 60;
         char result = (score >= 80) ? 'A' : ((score >= 70) ? 'B' : 'c');
         System.out.println("당신의 학점은 : " + grade);
     }
-*/
-/* if문
+
+ if문
 
     public static void main(String[] args) {
         int score = 93;
@@ -162,8 +162,8 @@ public class Java_study1 {
             System.out.println("등급은 D입니다");
         }
     }
-*/
-/* switch/case 문
+
+ switch/case 문
 
     public static void main(String[] args) {
         int month = 3;
@@ -211,8 +211,8 @@ public class Java_study1 {
         }
         System.out.println(monthString);
     }
-*/
-/* 배열
+
+ 배열
 
     public static void main(String[] args) {
         System.out.println(args.length); //길이 즉 args 에 몇개가 들어있는지 !
@@ -245,8 +245,8 @@ public class Java_study1 {
             System.out.print(weeks[i]); // print println 띄워짐차이
         }
     }
-*/
-/* 문자 > 숫자 형변환
+
+ 문자 > 숫자 형변환
     public static void main(String[] args) {
         String abc = "7654"; //숫자가 온다는 과정하에 변환을 할 수 있다.
 
@@ -264,6 +264,7 @@ public class Java_study1 {
     StrValue = String.valueOf(intValue);
     StrValue = Integer.toString(intValue);
     StrValue = "" + intValue; // 정수값에 빈 문자열을 더해 문자열 합치기 연산으로 작동되게 한다
+}
 
  */
 }
