@@ -1,7 +1,8 @@
 package DailyQuiz;
 
 public class DailyQuiz_2 {
- /*1. 아래 2개의 변수 number1, number2의 사칙 연산 결과(result1 ~ result4)를 정수로 출력하세요.
+ 
+ 1. 아래 2개의 변수 number1, number2의 사칙 연산 결과(result1 ~ result4)를 정수로 출력하세요.
       (사칙연산: +, -, *, /) 주석처리 된 곳에 코드를 채우면 됩니다.
 
    public static void main(String args[]) {
@@ -22,12 +23,14 @@ public class DailyQuiz_2 {
     }
 
 2. 아래 코드의 출력값은 무엇일까요? 코드를 돌려보기 전에 예측해보세요.
+ 
 2-1.
     public static void main(String args[]) {
         // 아래 코드의 출력값은 무엇일까요? 17
         System.out.println(10 / 2 + 3 * 4);
     }
   }
+
 2-2.
     public static void main(String args[]) {
         // 아래 코드의 출력값은 무엇일까요?
@@ -54,6 +57,7 @@ public class DailyQuiz_2 {
         System.out.println((num1 > 5) || (num2 > 5)); //true
         System.out.println(!((num1 > 5) && (num2 > 5))); //true
     }
+
 3. 다음의 내용을 연산식(조건식)으로 표현해보세요.
     - i는 2의 배수 또는 3의 배수이다.
 
@@ -63,7 +67,7 @@ public class DailyQuiz_2 {
         System.out.println(( i % 2 == 0 ) || ( i % 3 == 0 ));
     }
 
-4. 아래 코드의 실행 결과가 true가 되도록 수정해보세요.*/
+4. 아래 코드의 실행 결과가 true가 되도록 수정해보세요.
         public static void main(String args[]) {
         // 아래 코드의 실행 결과가 true가 되도록 수정해보세요.
         String str1 = new String("Hello world!");
