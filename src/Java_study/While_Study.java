@@ -1,7 +1,7 @@
 package Java_study;
 
 public class While_Study {
-/*
+
     public static void main(String[] args) {
         int index = 1;
         while (index <= 5 ){
@@ -82,7 +82,7 @@ do -while 문
         }while (index < 5);
     }
 
-Q.do-while 문 사용해서 10 이하의 짝수를 구하시오.*/
+Q.do-while 문 사용해서 10 이하의 짝수를 구하시오.
     public static void main(String[] args) {
         int i = 0;
         do{
