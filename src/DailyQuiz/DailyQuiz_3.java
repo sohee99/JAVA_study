@@ -1,7 +1,7 @@
 package DailyQuiz;
 
 public class DailyQuiz_3 {
-/*
+
 1. for문을 이용해서 a배열의 값을 b배열로 복사해보세요.
         public static void main(String args[]) {
             // for문을 이용해서 a배열의 값을 b배열로 복사해보세요.
@@ -48,7 +48,7 @@ public class DailyQuiz_3 {
             System.out.println(avg);
         }
 
-3. 0부터 20까지 짝수만 출력하는 코드를 작성해보세요.*/
+3. 0부터 20까지 짝수만 출력하는 코드를 작성해보세요.
 
         public static void main(String args[]) {
             // 0부터 20까지 짝수만 출력하는 코드를 작성해보세요.
