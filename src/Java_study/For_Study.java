@@ -1,7 +1,7 @@
 package Java_study;
 public class For_Study {
 
-/* for 문
+ for 문
 
    public static void main(String[] args) {
     //1~5까지 출력
@@ -100,7 +100,7 @@ Q. 구구단 2단부터 9단까지 만들어보자!
             }
         }
     }
-*/
+
 
 
 
