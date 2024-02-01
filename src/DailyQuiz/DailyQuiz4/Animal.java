@@ -2,7 +2,7 @@ package DailyQuiz.DailyQuiz4;
 
 public class Animal {
 
-    String name;
+    String name; //필드선언
 
     String sleep;
 

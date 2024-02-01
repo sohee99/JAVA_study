@@ -7,6 +7,7 @@ public class Car {
 
     String sw = "samsung";
 
+    boolean stop;
 
     Car(){
         company = "kia";
@@ -17,6 +18,18 @@ public class Car {
     Car(String company, int speed){
         this.company = company;
         this.speed = speed;
+    }
+
+    boolean isStop(){
+        return stop;
+    }
+
+    public void setSpeed(int speed){
+        if (speed < 0) {
+            this.speed = 0;
+        } else {
+            this.speed = speed;
+        }
     }
 
     void changeSoftware(){
