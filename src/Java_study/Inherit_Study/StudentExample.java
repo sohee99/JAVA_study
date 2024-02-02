@@ -1,4 +1,4 @@
-package Inherit_Study;
+package Java_study.Inherit_Study;
 
 public class StudentExample{
     public static void main(String[] args) {

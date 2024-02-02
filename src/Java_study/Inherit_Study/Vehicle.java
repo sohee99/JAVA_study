@@ -1,4 +1,4 @@
-package Inherit_Study;
+package Java_study.Inherit_Study;
 
 public class Vehicle {
     String modal; //부모클래스라도 dafault 라서 다른 패키지에서는 접근 불가 이때는 protected 사용

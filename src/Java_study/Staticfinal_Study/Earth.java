@@ -1,4 +1,4 @@
-package Staticfinal_Study;
+package Java_study.Staticfinal_Study;
 
 public class Earth {
     static final double PI = 3.14159;

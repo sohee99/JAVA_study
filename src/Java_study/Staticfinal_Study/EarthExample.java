@@ -1,4 +1,4 @@
-package Staticfinal_Study;
+package Java_study.Staticfinal_Study;
 
 public class EarthExample {
     public static void main(String[] args) {

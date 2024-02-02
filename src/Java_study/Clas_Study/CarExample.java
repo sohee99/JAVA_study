@@ -1,4 +1,4 @@
-package Clas_Study;
+package Java_study.Clas_Study;
 
 public class CarExample {
     public static void main(String[] args) {

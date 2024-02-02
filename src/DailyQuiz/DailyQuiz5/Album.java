@@ -14,3 +14,5 @@ public class Album extends Item{
         System.out.println("ID:"+id+"이름:"+name+"price :"+price+"작곡가:"+artist);
     }
 }
+
+

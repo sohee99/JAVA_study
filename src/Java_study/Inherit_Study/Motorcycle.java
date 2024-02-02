@@ -1,4 +1,4 @@
-package Inherit_Study;
+package Java_study.Inherit_Study;
 
 public class Motorcycle extends Vehicle{ // 다른언어와 달리 자바는 다중 상속이 지원되지 않는다.
 
