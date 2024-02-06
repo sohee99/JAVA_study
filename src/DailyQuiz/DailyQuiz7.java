@@ -1,7 +1,7 @@
 package DailyQuiz;
 
 public class DailyQuiz7 {
-/* 1. 예외에 대한 설명 중 틀린것은? 4
+   1. 예외에 대한 설명 중 틀린것은? 4
 
         1) 예외는 사용자의 잘못된 조작, 개발자의 잘못된 코딩으로 인한 프로그램 오류를 말한다.
 
@@ -83,5 +83,4 @@ public class DailyQuiz7 {
         (2) throw new NotExistsIdException("아이디가 존재하지 않습니다.")
         (3) throw new WrongPasswordException("패스워드가 틀립니다.")
         (4) super(message); / NotExistsIdException, WrongPasswordException 클래스 둘다 동일
- */
 }
