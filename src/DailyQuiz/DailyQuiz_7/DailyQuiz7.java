@@ -1,7 +1,8 @@
-package DailyQuiz;
+package DailyQuiz.DailyQuiz_7;
 
 public class DailyQuiz7 {
-/* 1. 예외에 대한 설명 중 틀린것은? 4
+    /*
+ 1. 예외에 대한 설명 중 틀린것은? 4
 
         1) 예외는 사용자의 잘못된 조작, 개발자의 잘못된 코딩으로 인한 프로그램 오류를 말한다.
 
@@ -83,5 +84,22 @@ public class DailyQuiz7 {
         (2) throw new NotExistsIdException("아이디가 존재하지 않습니다.")
         (3) throw new WrongPasswordException("패스워드가 틀립니다.")
         (4) super(message); / NotExistsIdException, WrongPasswordException 클래스 둘다 동일
- */
+*/
+
+    public static void main(String[] args) {
+        try{
+            login("blue","54321");
+        }catch (Exception e){
+            System.out.println(e.getMessage());
+        }
+    }
+
+    public static void  login(String id, String password) throws NotEcistsldException_7, WrongPasswordExcetion_7{
+        if(!id.equals("blue")){
+            throw new NotEcistsldException_7("아이디가 존재하지 않습니다.");
+        }
+        if(!password.equals("12345")){
+            throw new WrongPasswordExcetion_7("패스워드가 틀립니다.");
+        }
+    }
 }

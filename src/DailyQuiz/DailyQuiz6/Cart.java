@@ -25,12 +25,12 @@ public class Cart {
         }
         return weight;
     }
-
+/*
     public int calculateDeliveryCharge() {
         int deliveryCharge = Calculator.getDeliveryCharge(
                 getTotalWeight(), getTotalPriceIncludeDiscount());
         return deliveryCharge;
     }
-
+*/
 }
 
