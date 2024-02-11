@@ -1,7 +1,7 @@
 package Transaction;
 
 public class Account {
-    /*
+    
     private long balance;
 
     public Account() {
@@ -22,5 +22,5 @@ public class Account {
                     "잔액부족! 현재 잔액: " + balance + ", 출금하고자 하는 금액: " + money);
         }
         balance -= money;
-    }*/
+    }
 }
