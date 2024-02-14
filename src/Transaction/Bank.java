@@ -2,7 +2,7 @@ package Transaction;
 
 
 import Java_study.예외처리.BalanceInsufficientException;
-/*
+
 public class Bank {
     public static void main(String[] args) {
         Account sender = new Account(); //송금인 계좌
@@ -21,4 +21,4 @@ public class Bank {
 
         }
     }
-}*/
+}
