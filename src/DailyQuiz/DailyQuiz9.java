@@ -1,7 +1,7 @@
 package DailyQuiz;
 
 public class DailyQuiz9 {
-/*
+
     1. 제네릭에 대한 설명으로 틀린 것은 무엇입니까? 4
 
             1) 컴파일시 강한 타입 체크를 할 수 있다.
@@ -80,5 +80,5 @@ public class DailyQuiz9 {
 
 }
 
- */
+ 
 }
