@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.function.ToDoubleFunction;
 
 public class DailyQuiz10 {
-    /*
+    
     1. 람다식에 대한 설명으로 틀린것은? 4
 
         1) 람다식은 함수형 인터페이스의 익명 구현 객체를 생성한다.
@@ -16,6 +16,7 @@ public class DailyQuiz10 {
         3) (x, y) → { return x + y; }는 (x, y) → x + y;로 바꿀 수 있다.
 
         4) @FunctionalInterface가 기술된 인터페이스만 람다식으로 표현이 가능하다.
+            
 
     2. 메소드 참조에 대한 설명으로 틀린 것은? 4
 
@@ -26,6 +27,7 @@ public class DailyQuiz10 {
         3) 정적 메소드는 “클래스::메소드”로 기술한다.
 
         4) 생성자 참조인 “클래스::new”는 매개 변수가 없는 디폴트 생성자만 호출한다.
+            
 
      3. 잘못 작성한 람다식은? 2
 
@@ -36,6 +38,7 @@ public class DailyQuiz10 {
         3) x → System.out.println(x/5)
 
         4) (x, y) → Math.max(x, y)
+            
 
      4. 다음 코드는 컴파일 에러가 발생합니다. 그 이유는?  supplier - 매개변수가 없음 - x y 변수사용
 
@@ -54,6 +57,7 @@ public class DailyQuiz10 {
         System.out.println(method(3, 5));
             }
         }
+
 
     5. 다음은 배열 항목 중 최대값 또는 최소값을 찾는 코드입니다. maxOrMin() 메소드의 매개값을 람다식으로 기술해보세요.
 
@@ -82,6 +86,7 @@ public class DailyQuiz10 {
         System.out.println("최소값: " + min);
 }
 
+        
     6. 다음은 학생의 영어 평균 점수와 수학 평균 점수를 계산하는 코드입니다. avg() 메소드를 선언해보세요.
 
     public class LambdaExample_6 {
@@ -133,6 +138,7 @@ public class DailyQuiz10 {
         }
     }
 
+
     7. 6번의 main() 메소드에서 avg() 호출할 때 매개값으로 준 람다식을 메소드 참조로 변경해보세요.
 
          double englishAvg = average( s -> s.getEnglishScore() );
@@ -141,7 +147,7 @@ public class DailyQuiz10 {
          double mathAvg = average( s -> s.getMathScore() );
          -> double mathAvg = avg ( Student::getMathScore );
 
-    */
+    
 }
 
 
