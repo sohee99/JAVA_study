@@ -8,7 +8,7 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class DailyQuiz11 {
-/*
+
     public static class PrintMoreBigNumber {
 
         public List<Integer> solution(int n, int[] array) {
@@ -124,7 +124,7 @@ public class DailyQuiz11 {
         }
     }
 }
- */
+ 
 
 
 }
