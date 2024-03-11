@@ -21,11 +21,11 @@ public class FirstMain {
     }
 
     //    public static void main(String[] args) {
-//        // 실수값 저장
+//        // 실수값 저장.
 //        double var1 = 3.14;
 //        float var2 = 3.14F;
 //
-//        // 정밀도 테스트
+//        // 정밀도 테스트.
 //        double var3 = 0.1234567890123456789;
 //        float var4 = 0.1234567890123456789F;
 //
